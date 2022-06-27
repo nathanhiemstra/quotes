@@ -33,6 +33,9 @@ module.exports = {
         url:
           process.env.WPGRAPHQL_URL ||
           `http://quotes.nathanhiemstra.com/graphql`,
+        schema: {
+          perPage: 30000,
+        },
       },
     },
 
