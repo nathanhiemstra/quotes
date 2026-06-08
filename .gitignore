@@ -1,5 +1,19 @@
 .wordpress-cache
 
+# WordPress runtime/generated content
+uploads/
+upgrade/
+cache/
+backup-db/
+w3tc-cache/
+
+# Third-party code installed per environment
+plugins/
+themes/
+
+# WordPress secrets/config if the repo is checked out near a WP root
+wp-config.php
+
 # Logs
 logs
 *.log
