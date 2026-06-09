@@ -1,0 +1,16 @@
+---
+description: Quotes WordPress project context
+alwaysApply: true
+---
+
+# Quotes Project
+
+This repo is the portable `wp-content` layer for the Quotes WordPress site.
+
+- Treat GitHub as source of truth for code and SiteGround as the deployment target.
+- Project-owned code lives in `mu-plugins/` and `components/`.
+- Do not commit WordPress core, `wp-config.php`, uploads, caches, backups, or paid plugin source unless explicitly requested.
+- Database/content changes belong in repeatable scripts under `migrations/`.
+- Before changing WordPress behavior, check existing MU plugin patterns first.
+- Preserve accessibility: semantic HTML, keyboard access, visible focus, and readable contrast.
+- Keep the public site simple, fast, and server-rendered unless there is a clear reason to add heavier front-end code.
